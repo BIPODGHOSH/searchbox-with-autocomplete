@@ -1,9 +1,14 @@
 import "./App.css";
+import Searchbox from "./components/Searchbox";
+import SearchResult from "./components/SearchResult";
 
 function App() {
   return (
     <div className="App">
-      <h1>heloo</h1>
+      <div id="search-container">
+        <Searchbox />
+        <SearchResult />
+      </div>
     </div>
   );
 }
